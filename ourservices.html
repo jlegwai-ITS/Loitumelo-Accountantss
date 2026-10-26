@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Accounting, bookkeeping, tax, payroll and advisory services from Your Firm Name Accountants.">
+<title>Services | </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<img class="logo-img" src="logo.jpeg" alt="Your Firm Name logo">
+<a class="logo" href="index.html">Loitumelo<span>Accountants</span></a>
+<button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+<nav class="main-nav" id="main-nav">
+<a href="index.html">About</a>
+<a href="vision.html">Our Vision</a>
+<a href="services.html" class="active">Services</a>
+<a href="contact-us.html">Contact Us</a>
+</nav>
+</div>
+</header>
+
+<section class="hero small">
+<div class="container">
+<h1>Our services</h1>
+<p>Everything you need to keep your finances in order, under one roof.</p>
+</div>
+</section>
+
+<main class="container">
+<section class="section">
+<div class="cards">
+<article class="card">
+<h3>Accounting</h3>
+<p>Day-to-day recording of annual financial statements and expenses, financial forecasts, business plan, business profiles, budgeting  and monthly management reports.</p>
+</article>
+<article class="card">
+<h3>Tax services</h3>
+<p>Personal and business tax returns, VAT registration & returns, objections, E-Filing registration, appeals  and support with tax authority queries.</p>
+</article>
+<article class="card">
+<h3>Payroll</h3>
+<p>Payslips, UIF Registration, EMP 501 Reconciliaion, salary schedule, EMP 201 (PAYROLL returns) and employee records handled accurately and on time.</p>
+</article>
+<article class="card">
+<h3>Financial statements</h3>
+<p>Annual financial statements prepared to the required standards for banks, investors and compliance.</p>
+</article>
+<article class="card">
+<h3>CIPC</h3>
+<p>Company registration, annual returns, business ownership(Beneficial ownership), Amendments, BEE Certification, registering your company and keeping annual filings up to date.</p>
+</article>
+<article class="card">
+<h3>Other services</h3>
+<p>Letter of Good standing (Labour), CSD Registration, CIDB.</p>
+</article>
+</div>
+</section>
+
+<section class="section" id="enquiry">
+<h2>Request a consultation</h2>
+<p>Tell us a little about what you need and we will get back to you.</p>
+<form id="enquiry-form" novalidate>
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Your full name">
+<span class="error" id="name-error"></span>
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="you@example.com">
+<span class="error" id="email-error"></span>
+
+<label for="service">Service needed</label>
+<select id="service" name="service">
+<option value="">Select a service</option>
+<option>Accounting</option>
+<option>Tax services</option>
+<option>Payroll</option>
+<option>Financial statements</option>
+<option>CIPC</option>
+<option>Other Services</option>
+</select>
+<span class="error" id="service-error"></span>
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="4" placeholder="How can we help?"></textarea>
+<span class="error" id="message-error"></span>
+
+<button type="submit" class="btn">Send enquiry</button>
+<p id="form-success" class="success" hidden>Thank you! We will be in touch shortly.</p>
+</form>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<p>&copy; <span id="year">2026</span> Loitumelo  Accountants. All rights reserved.</p>
+<p>Email: modiseik@gmail.com &nbsp;|&nbsp; Phone:  +27 64 523 6521 </p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
